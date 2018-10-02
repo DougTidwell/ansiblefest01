@@ -21,7 +21,7 @@ import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
 
 public class GreetingServiceVerticle extends AbstractVerticle {
 
-    protected static final String template = "Hello, %s!";
+    protected static final String template = "Wassamatta, %s?";
 
     private CircuitBreaker circuit;
     private WebClient client;
